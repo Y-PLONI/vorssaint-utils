@@ -35,6 +35,7 @@ extension FeatureStrings {
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
         case .zhHK: return .zhHK
+        case .he: return .he
         }
     }
 }
@@ -246,5 +247,21 @@ extension DiskImageInstallerStrings {
         failedBody: "沒有變更任何內容。你仍可將 App 拖到「應用程式」。",
         verificationFailedBody: "這部 Mac 無法驗證此 App，因此沒有安裝。",
         alreadyInstalledBodyFormat: "%@ 已在「應用程式」中。"
+    )
+
+    static let he = DiskImageInstallerStrings(
+        title: "מתקין קובצי תמונת דיסק",
+        hubDescription: "התקן את האפליקציה מדמות הכונן ונקה את ההורדה",
+        promptTitle: "להתקין אפליקציה זו?",
+        promptBodyFormat: "%@ יועתק ל'אפליקציות'. לאחר מכן דמות הכונן תיפלט וההורדה תועבר ל'אשפה'.",
+        installButton: "התקן",
+        installedTitle: "האפליקציה הותקנה",
+        installedBodyFormat: "%@ מוכן ב'אפליקציות'. דמות הכונן נפלטה וההורדה הועברה ל'אשפה'.",
+        installedKeepingMountBodyFormat: "%@ הותקן, אך לא ניתן היה לפלוט את דמות הכונן. ההורדה נשמרה.",
+        installedKeepingDownloadBodyFormat: "%@ הותקן ודמות הכונן נפלטה, אך לא ניתן היה להעביר את ההורדה ל'אשפה'.",
+        failedTitle: "לא ניתן להתקין",
+        failedBody: "שום דבר לא שונה. עדיין ניתן לגרור את האפליקציה ל'אפליקציות'.",
+        verificationFailedBody: "Mac זה לא הצליח לאמת את האפליקציה, ולכן שום דבר לא הותקן.",
+        alreadyInstalledBodyFormat: "%@ כבר נמצא ב'אפליקציות'."
     )
 }

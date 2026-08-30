@@ -305,6 +305,7 @@ struct MetricsTests {
             (.zhHans, "剪贴板", "窗口布局", "实用工具", "提醒"),
             (.zhTW, "剪貼簿", "視窗排列", "工具程式", "提醒"),
             (.zhHK, "剪貼簿", "視窗排列", "工具", "提示"),
+                     (.he, "לוח גזירים", "סידור חלונות", "כלי עזר", "התראות"),
         ]
         for (language, clipboardTitle, windowTitle, utilitiesTitle, alertsTitle) in featureTitles {
             expect(FeatureStrings.clipboard(language).title == clipboardTitle,
@@ -11585,7 +11586,8 @@ struct MetricsTests {
             (.ko, .ko),
             (.zhHans, .zhHans),
             (.zhTW, .zhTW),
-            (.zhHK, .zhHK)
+                     (.zhHK, .zhHK),
+                     (.he, .he)
         ]
         expect(localizedStrings.count == AppLanguage.allCases.count, "all app languages are covered by tests")
         for (language, strings) in localizedStrings {
@@ -13514,6 +13516,7 @@ struct MetricsTests {
                 case .zhHans: return .zhHans
                 case .zhTW: return .zhTW
                 case .zhHK: return .zhHK
+                            case .he: return .he
                 }
             }()
             expect(!strings.obPurposeTitle.isEmpty && !strings.obPurposeBody.isEmpty
