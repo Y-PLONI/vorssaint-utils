@@ -58,6 +58,7 @@ extension FeatureStrings {
         case .zhHans: return .zhHans
         case .zhTW: return .zhTW
         case .zhHK: return .zhHK
+        case .he: return .he
         }
     }
 }
@@ -516,5 +517,31 @@ extension MouseButtonFeatureStrings {
         spacesCaptureExists: "該按鍵已設有快捷鍵。請換一個。",
         spacesFollowsDragLabel: "桌面跟著拖曳走",
         spacesFollowsDragCaption: "向右拖曳會帶來左邊的桌面，就像在觸控式軌跡板上滑動時桌面跟著手指移動一樣。"
+    )
+
+    static let he = MouseButtonFeatureStrings(
+        pageTitle: "קיצורי לחצני עכבר",
+        hubDescription: "לחצנים נוספים וכיווני גלגל צד לוחצים על צירוף מקשים שתבחר.",
+        enableLabel: "השתמש בלחצנים נוספים כקיצורים",
+        enableCaption: "כל לחצן נוסף או כיוון גלגל צד יכול ללחוץ על צירוף מקשים בשבילך. בזמן שיש לו קיצור, הוא מפסיק לעשות מה שעשה קודם.",
+        addButton: "הוסף לחצן או גלגל צד",
+        captureWaiting: "עכשיו לחץ על לחצן נוסף או הזז את גלגל הצד.",
+        captureCancel: "ביטול",
+        captureBlind: "Vorssaint לא יכול לצפות בעכבר עכשיו.",
+        captureUnsupported: "הקלט הזה לא יכול לקבל קיצור. השתמש בלחצן נוסף או בכיוון גלגל צד.",
+        captureWheel: "הלחצן הזה כבר פותח את התפריט המעגלי. בחר אחר, או שחרר אותו שם קודם.",
+        captureExists: "הלחצן או הכיוון הזה כבר ברשימה למטה.",
+        captureHint: "אם כלום לא קורה, ייתכן שהתוכנה של העכבר עצמו כבר משתמשת בפקד הזה.",
+        backButtonName: "לחצן צד אחורה",
+        forwardButtonName: "לחצן צד קדימה",
+        otherButtonFormat: "לחצן %d",
+        setShortcutButton: "הגדר קיצור",
+        removeButton: "הסר",
+        emptyCaption: "אין עדיין קיצורים. הוסף לחצן או כיוון גלגל צד.",
+        rowWheelNote: "הלחצן הזה פותח את התפריט המעגלי עכשיו, אז הקיצור ממתין.",
+        manageButton: "הגדר…",
+        panelCaption: "לחצנים נוספים וכיווני גלגל צד לוחצים על צירופי מקשים שתבחר.",
+        sideWheelLeftName: "גלגל צד שמאלה",
+        sideWheelRightName: "גלגל צד ימינה"
     )
 }
