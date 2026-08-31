@@ -433,7 +433,7 @@ struct SettingsCategoryStrings {
         essentials: "עיקרי",
         windowsControls: "חלונות ובקרה",
         files: "קבצים",
-        utilities: "כלים",
+        utilities: "כלי עזר",
         app: "אפליקציה",
         appManagement: "ניהול אפליקציות"
     )
@@ -1263,6 +1263,7 @@ struct ClipboardFeatureStrings {
         selectShortcutAction: "בחר",
         pasteSelectedFormat: "הדבק %d",
         copySelectedFormat: "העתק %d",
+        deleteSelectedFormat: "מחק %d",
         clearSelection: "נקה בחירה",
         moveUp: "העלה",
         moveDown: "הורד",

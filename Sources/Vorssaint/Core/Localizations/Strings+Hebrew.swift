@@ -303,7 +303,7 @@ extension Strings {
         uninstallerRemove: "העבר לאשפה",
         uninstallerCancel: "בטל",
         uninstallerDoneTitle: "מוכן!",
-        uninstallerFreedFormat: "%d שוחררו",
+        uninstallerFreedFormat: "%@ שוחררו",
         uninstallerSomeFailed: "חלק מהפריטים לא ניתן היה להעביר לאשפה.",
         uninstallerFailedNeedsFDA: "נתונים של אפליקציות באזור מוגן ניתנים להעברה רק עם גישה מלאה לדיסק. סיסמת מנהל לא מחליפה הרשאה זו.",
         uninstallerFailedMoreFormat: "ו-%d נוספים",
@@ -400,8 +400,8 @@ extension Strings {
         homebrewOperationUpgradeAll: "משדרג חבילות",
         homebrewOperationUpdateHomebrew: "מעדכן את Homebrew",
         homebrewOperationInstalledFormat: "%@ הותקן.",
-        homebrewOperationUninstalledFormat: "%d הוסר.",
-        homebrewOperationUpgradedFormat: "%d שודרג.",
+        homebrewOperationUninstalledFormat: "%@ הוסר.",
+        homebrewOperationUpgradedFormat: "%@ שודרג.",
         homebrewOperationUpgradedAll: "חבילות שודרגו.",
         homebrewOperationUpdatedHomebrew: "Homebrew עודכן.",
         homebrewOperationFailedFormat: "לא ניתן להשלים את %@.",
@@ -803,6 +803,9 @@ extension Strings {
         cleaningOverlaySubtitle: "לחץ Esc 5 פעמים לפתיחה",
         cleaningOverlayUnlock: "פתח",
         cleaningOverlayMouseHint: "העכבר והטראקפד ממשיכים לעבוד",
+        cleaningKeepScreenVisibleToggle: "להשאיר את המסך גלוי",
+        cleaningKeepScreenVisibleCaption: "מציג חיווי דיסקרטי בפינת המסך במקום להחשיך את התוכן.",
+        cleaningStartNow: "לנעול את המקלדת עכשיו",
         cleaningNeedsAxTitle: "דורש נגישות",
         cleaningNeedsAxBody: "כדי לנעול את המקלדת בבטחה, Vorssaint צריך הרשאת נגישות. הענק בהגדרות המערכת ונסה שוב.",
 
@@ -977,6 +980,9 @@ extension Strings {
         switcherScreenPlacementPointer: "מסך עם הסמן",
         switcherScreenPlacementMenuBar: "מסך עם שורת התפריטים",
         switcherScreenPlacementActiveWindow: "מסך עם החלון הפעיל",
-        switcherScreenPlacementCaption: "באיזה מסך המחליף נפתח כשיש יותר מאחד מחובר."
+        switcherScreenPlacementCaption: "באיזה מסך המחליף נפתח כשיש יותר מאחד מחובר.",
+        smoothScrollResponseLabel: "תגובה",
+        mouseAccelerationName: "לבטל האצת עכבר",
+        mouseAccelerationCaption: "מסיר את האצת הסמן לעכברים המחוברים. ההגדרה הקודמת חוזרת כשמכבים את האפשרות הזו או יוצאים מ-Vorssaint."
     )
 }

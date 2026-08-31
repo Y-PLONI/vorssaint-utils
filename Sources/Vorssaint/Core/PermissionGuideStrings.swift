@@ -223,6 +223,9 @@ extension PermissionGuideStrings {
         stepReturn: "חזור לכאן. הכרטיס הזה מבחין בעצמו.",
         waiting: "ממתין להרשאה…",
         granted: "ההרשאה ניתנה!",
-        closeHelp: "סגור"
+        closeHelp: "סגור",
+        staleHint: "כבר מופעל ברשימה? הרשומה הזו שייכת לעותק קודם של האפליקציה. התחילו מחדש כדי להחליף אותה.",
+        startOver: "להתחיל מחדש",
+        relaunch: "הפעלה מחדש כדי להחיל"
     )
 }
