@@ -2088,6 +2088,7 @@ extension ScreenshotFeatureStrings {
         autoCopyCaption: "כל צילום עובר ללוח מיד כשהוא נלקח, מוכן להדבקה. שמירה כקובץ נשארת בחירה נפרדת.",
         hintLoupe: "Z מפעיל/מכבה את הזכוכית המגדלת",
         lastRegionToggle: "הצג את קווי המתאר של הצילום האחרון",
+        loupeStartsOnToggle: "להתחיל את הבחירה עם זכוכית מגדלת פעילה",
         backdropBlurLabel: "טשטוש",
         scrollingCaptureButton: "צילום גלילה",
         scrollingCaptureTitle: "צילום מסך גולל",

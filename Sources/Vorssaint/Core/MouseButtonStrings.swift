@@ -514,6 +514,13 @@ extension MouseButtonFeatureStrings {
         manageButton: "הגדר…",
         panelCaption: "לחצנים נוספים וכיווני גלגל צד לוחצים על צירופי מקשים שתבחר.",
         sideWheelLeftName: "גלגל צד שמאלה",
-        sideWheelRightName: "גלגל צד ימינה"
+        sideWheelRightName: "גלגל צד ימינה",
+        spacesEnableLabel: "מעבר בין שולחנות עבודה בגרירת לחצן",
+        spacesEnableCaption: "החזק את הלחצן שנבחר וגרור: שמאלה או ימינה עוברים שולחן עבודה אחד, למעלה פותח את Mission Control, למטה פותח את App Exposé. לחיצה קצרה ממשיכה לעשות מה שעשתה תמיד.",
+        spacesPickButton: "בחר לחצן",
+        spacesShortcutsOffNote: "קיצורי המקלדת של Mission Control כבויים בהגדרות המערכת, אז למחווה הזו אין למה לקרוא.",
+        spacesCaptureWaiting: "עכשיו לחץ על לחצן נוסף.",
+        spacesCaptureUnsupported: "אי אפשר להחזיק את הקלט הזה לגרירה. השתמש בלחצן נוסף.",
+        spacesCaptureExists: "ללחצן הזה כבר יש קיצור. בחר אחר."
     )
 }

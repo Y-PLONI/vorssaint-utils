@@ -212,6 +212,7 @@ extension MouseExceptionStrings {
         captionScrollDirection: "הגלגל שומר על הכיוון ש-macOS נותן לו באפליקציות אלה.",
         captionNavigation: "הלחצנים הצדדיים ממשיכים לעשות מה שהאפליקציות האלה כבר עושות איתם.",
         captionButtonShortcuts: "קיצורי הלחצנים שלך נשארים שקטים באפליקציות אלה, והלחיצה מגיעה אליהם במקום.",
-        captionMiddleClick: "לחיצה בשלוש אצבעות נשארת לחיצה רגילה באפליקציות אלה."
+        captionMiddleClick: "לחיצה בשלוש אצבעות נשארת לחיצה רגילה באפליקציות אלה.",
+        captionFocusFollowsMouse: "מעבר עם הסמן לא משנה מיקוד ולא מקדים חלון באפליקציות אלה."
     )
 }
