@@ -3,6 +3,7 @@
 
 import Combine
 import Foundation
+import SwiftUI
 
 /// Languages the interface can use. The first launch defaults to the system
 /// language; the onboarding and Settings let the user override it at any time.
@@ -28,6 +29,7 @@ enum AppLanguage: String, CaseIterable, Identifiable {
     /// Russian, of the thirteen: two through four take a form of their own,
     /// so "2 файла" and not "2 файлов".
     var usesFewCountForm: Bool { self == .ru }
+    var isRTL: Bool { self == .he }
 
     /// The language's own name, shown in its own script, the way macOS lists them.
     var displayName: String {
@@ -67,6 +69,25 @@ enum AppLanguage: String, CaseIterable, Identifiable {
         ]
         for (prefix, language) in matches where preferred.hasPrefix(prefix) { return language }
         return .enUS
+    }
+}
+
+/// Mirrors the chosen `AppLanguage` into SwiftUI's layout direction. This app
+/// is AppKit-hosted (`NSHostingController`/`NSHostingView`), so nothing gives
+/// a Hebrew UI a mirrored layout on its own: `CFBundleLocalizations` only
+/// follows the *system* language, and `AppLanguage` is a user override that's
+/// decoupled from it. Every hosting root applies this explicitly instead.
+private struct LocalizedLayoutDirection: ViewModifier {
+    @ObservedObject private var l10n = L10n.shared
+
+    func body(content: Content) -> some View {
+        content.environment(\.layoutDirection, l10n.language.isRTL ? .rightToLeft : .leftToRight)
+    }
+}
+
+extension View {
+    func localizedLayoutDirection() -> some View {
+        modifier(LocalizedLayoutDirection())
     }
 }
 
