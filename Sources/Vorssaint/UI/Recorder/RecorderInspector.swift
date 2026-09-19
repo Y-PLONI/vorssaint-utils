@@ -556,6 +556,8 @@ struct RecorderInspector: View {
                 }
             }
         }
+        // Each cell is a corner of the picture, which is never mirrored.
+        .environment(\.layoutDirection, .leftToRight)
     }
 
     /// A slider that says what it is set to and goes back to its default on a
