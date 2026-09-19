@@ -1263,7 +1263,6 @@ struct ClipboardFeatureStrings {
         selectShortcutAction: "בחר",
         pasteSelectedFormat: "הדבק %d",
         copySelectedFormat: "העתק %d",
-        deleteSelectedFormat: "מחק %d",
         clearSelection: "נקה בחירה",
         moveUp: "העלה",
         moveDown: "הורד",
@@ -1285,7 +1284,12 @@ struct ClipboardFeatureStrings {
         autoClearOnSleep: "נקה לוח גזירים במצב שינה",
         autoClearOnDisplaySleep: "נקה לוח גזירים בכיבוי מסך",
         autoClearOnScreenLock: "נקה לוח גזירים בנעילת מסך",
-        autoClearCaption: "רק לוח הגזירים של המערכת מנוקה. פריטים שמורים נשארים בהיסטוריה."
+        autoClearCaption: "רק לוח הגזירים של המערכת מנוקה. פריטים שמורים נשארים בהיסטוריה.",
+        deleteSelectedFormat: "מחק %d",
+        menuBarPreview: "הצג את ההעתקה האחרונה בשורת התפריטים",
+        menuBarPreviewCaption: "מציג תצוגה מקדימה מקוצרת של ההעתקה האחרונה ליד הסמל. לחץ עליה כדי לפתוח את ההיסטוריה.",
+        menuBarPreviewLength: "אורך התצוגה המקדימה",
+        menuBarPreviewLengthSuffix: "תווים"
     )
 }
 
@@ -2255,11 +2259,13 @@ struct WindowLayoutFeatureStrings {
         rightHalf: "חצי ימין",
         topHalf: "חצי עליון",
         bottomHalf: "חצי תחתון",
+        centerHalf: "חצי מרכזי",
         leftThird: "שליש שמאל",
         centerThird: "שליש אמצעי",
         rightThird: "שליש ימין",
         leftTwoThirds: "שני שלישים שמאל",
         rightTwoThirds: "שני שלישים ימין",
+        centerTwoThirds: "2/3 מרכזיים",
         topLeftSixth: "שישית שמאל עליון",
         topCenterSixth: "שישית עליון אמצעי",
         topRightSixth: "שישית ימין עליון",
@@ -2278,8 +2284,8 @@ struct WindowLayoutFeatureStrings {
         previousDisplay: "מסך קודם",
         edgeSnapEnable: "הצמד חלונות לקצוות המסך",
         edgeSnapCaption: "הפעל כאן, ואז גרור את שורת הכותרת לקצה או פינה כלשהי של המסך ושחרר.",
-        edgeSnapSystemConflict: "macOS משתמש באותם קצוות מסך. כבה ריצוף חלונות ב'שולחן עבודה ו-Dock' כדי לאפשר ל-Vorssaint לפעול.",
-        edgeSnapOpenSystemSettings: "פתח שולחן עבודה ו-Dock",
+        edgeSnapSystemConflict: "macOS משתמש באותם קצוות מסך. כבה ריצוף חלונות ב״מכתבה וה-Dock״ כדי לאפשר ל-Vorssaint לפעול.",
+        edgeSnapOpenSystemSettings: "פתח את מכתבה וה-Dock",
         edgeSnapWaitingForSystem: "הופעל ב-Vorssaint. יפעל לאחר כיבוי ריצוף החלונות של macOS.",
         marginMaximize: "הגדלה עם שוליים",
         gapsSection: "רווחים",

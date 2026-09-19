@@ -638,6 +638,7 @@ extension AppUpdateStrings {
         lastCheckFormat: "בדיקה אחרונה %@",
         neverChecked: "טרם נבדק",
         upToDate: "לא נמצאו עדכונים",
+        partialUpToDate: "לא נמצאו עדכונים בבדיקה החלקית הזו",
         coverageNote: "בודק אפליקציות מנוהלות ואפליקציות חנות, ומשווה שמות מדויקים של אפליקציות אחרות עם קטלוג מקוון ציבורי. עדכונים עדיין מותקנים דרך המקור המקורי.",
         selectAll: "בחר הכל",
         clearSelection: "נקה",

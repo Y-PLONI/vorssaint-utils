@@ -242,6 +242,8 @@ extension MouseExceptionStrings {
         captionNavigation: "הלחצנים הצדדיים ממשיכים לעשות מה שהאפליקציות האלה כבר עושות איתם.",
         captionButtonShortcuts: "קיצורי הלחצנים שלך נשארים שקטים באפליקציות אלה, והלחיצה מגיעה אליהם במקום.",
         captionMiddleClick: "לחיצה בשלוש אצבעות נשארת לחיצה רגילה באפליקציות אלה.",
-        captionFocusFollowsMouse: "מעבר עם הסמן לא משנה מיקוד ולא מקדים חלון באפליקציות אלה."
+        captionFocusFollowsMouse: "מעבר עם הסמן לא משנה מיקוד ולא מעלה חלון לחזית באפליקציות אלה.",
+        captionSuperKey: "כל עוד אחת מהאפליקציות האלה פתוחה, גם ברקע, Super Key מושהה והמקש שנבחר עובד כרגיל.",
+        pausedSuperKey: "מושהה כשאפליקציה נבחרת פתוחה"
     )
 }

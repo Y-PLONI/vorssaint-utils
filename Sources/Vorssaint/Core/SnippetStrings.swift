@@ -1013,7 +1013,7 @@ extension SnippetFeatureStrings {
         libraryCaption: "קיצור המקלדת פותח תפריט עם חיפוש. בחירת קטע מקלידה אותו בדיוק איפה שהסמן נמצא.",
         librarySearchPlaceholder: "חפש קטעים",
         libraryNoResults: "אין קטע שמתאים לחיפוש.",
-        libraryEmpty: "אין עדיין מה להציג. הוסף קטעים, או הפעל 'הצג בתפריט המהיר' לאלה שבהם אתה משתמש הכי הרבה.",
+        libraryEmpty: "אין עדיין מה להציג. הוסף קטעים, או הפעל ״הצג בתפריט המהיר״ לאלה שבהם אתה משתמש הכי הרבה.",
         libraryFooterHint: "↩ מכניס · esc סוגר",
         folderLabel: "תיקייה",
         folderPlaceholder: "עבודה",
@@ -1043,6 +1043,10 @@ extension SnippetFeatureStrings {
         dateTimePatternLabel: "תבנית",
         dateTimePreviewLabel: "תצוגה מקדימה",
         dateTimeConfirmInsert: "הכנס",
-        dateTimeConfirmUpdate: "עדכן"
+        dateTimeConfirmUpdate: "עדכן",
+        soundToggle: "השמע צליל כשטריגר מוקלד מתרחב",
+        soundCaption: "צליל מערכת קצר מושמע בכל פעם שטריגר מוקלד מתרחב.",
+        soundPickerLabel: "צליל",
+        soundUnavailable: "הצליל לא זמין"
     )
 }

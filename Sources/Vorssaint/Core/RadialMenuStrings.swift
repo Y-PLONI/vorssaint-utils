@@ -1465,7 +1465,7 @@ extension RadialMenuFeatureStrings {
         submenuCaption: "פותח גלגל שני עם הפעולות שלו.",
         saveButton: "שמור",
         deleteButton: "הסר",
-        permissionCaption: "פעולות מקשים והפעלה בכפתור צד דורשות הרשאת 'נגישות'.",
+        permissionCaption: "פעולות מקשים והפעלה בכפתור צד דורשות הרשאת ״נגישות״.",
         manageButton: "נהל את התפריט",
         panelCaption: "הפעולות המועדפות עליך בגלגל אחד",
         mouseTriggerLabel: "כפתור עכבר",
@@ -1496,7 +1496,7 @@ extension RadialMenuFeatureStrings {
         presetGeneral: "כללי",
         presetMedia: "מדיה",
         presetTools: "כלים",
-        presetWindowLayout: "פריסת חלונות",
+        presetWindowLayout: "סידור חלונות",
         presetQuickToggles: "מתגים מהירים",
         presetBlank: "ריק",
         colorAccent: "הדגשה",
@@ -1515,6 +1515,13 @@ extension RadialMenuFeatureStrings {
         fetchFaviconDisclaimer: "מתחבר לאתר פעם אחת להורדת הסמל. נשמר מקומית.",
         fetchFaviconLoading: "מביא סמל…",
         fetchFaviconSuccess: "סמל הורד",
-        fetchFaviconError: "לא ניתן למצוא סמל אתר"
+        fetchFaviconError: "לא ניתן למצוא סמל אתר",
+        mouseTriggerRequirement: "רק כפתורי עכבר נוספים עובדים כאן. עם משטח מגע או עכבר בלי כפתורים נוספים, השתמש בקיצור המקלדת שלמעלה.",
+        canvasHint: "לחץ על כפתור כדי לבחור מה הוא מפעיל, או כדי להסיר אותו. גרור כפתור כדי להזיז אותו.",
+        resetActionsButton: "אפס",
+        resetActionsConfirm: "אפס פעולות",
+        resetActionsConfirmMessage: "לשחזר את פעולות ברירת המחדל לפרופיל הזה? פעולות מותאמות אישית יוחלפו.",
+        showListButton: "הצג כרשימה",
+        hideListButton: "הסתר רשימה"
     )
 }

@@ -451,6 +451,17 @@ extension KeepAwakeAutomationStrings {
         externalDisplayActive: "פעיל בזמן שמסך חיצוני מחובר",
         powerToggle: "חשמל",
         powerActive: "פעיל בזמן שמחובר לחשמל",
-        automationActive: "פעיל כי תנאי אוטומטי מתקיים"
+        runningAppsToggle: "אפליקציות",
+        runningAppsActive: "פעיל כשאפליקציה נבחרת פועלת",
+        runningAppsListTitle: "אפליקציות נבחרות",
+        runningAppsAddButton: "הוסף אפליקציה…",
+        runningAppsRemoveButton: "הסר",
+        runningAppsListCaption: "״שמור ערנות״ מתחיל כשאחת מהאפליקציות האלה פתוחה, גם ברקע.",
+        automationActive: "פעיל כי תנאי אוטומטי מתקיים",
+        pauseWhenLockedToggle: "השהה כשה-Mac נעול",
+        pauseWhenLockedCaption: "בזמן נעילה חלים כללי השינה הרגילים, ויתרת הסשן ממשיכה אחרי שתבטל את הנעילה.",
+        matchAny: "כל אחד",
+        matchAll: "כולם",
+        automationCaptionAll: "מתחיל רק כשכל התנאים שנבחרו פעילים."
     )
 }

@@ -508,7 +508,7 @@ extension KillProcessFeatureStrings {
         processCountFormat: "%d תהליכים",
         killButton: "סיים",
         forceKillButton: "סיום בכוח",
-        killAllFormat: "סיים את כל '%@'",
+        killAllFormat: "סיים את כל “%@”",
         killTreeButton: "סיים עץ תהליכים",
         restartButton: "הפעל מחדש",
         copyPID: "העתק PID",
@@ -516,10 +516,10 @@ extension KillProcessFeatureStrings {
         emptyStateTitle: "לא נמצאו תהליכים",
         confirmKillFormat: "לסיים את %@?",
         confirmForceKillFormat: "לסיים בכוח את %@?",
-        confirmKillAllFormat: "לסיים את כל התהליכים '%@'?",
+        confirmKillAllFormat: "לסיים את כל התהליכים “%@”?",
         confirmKillTreeFormat: "לסיים את %@ ואת כל תהליכי הצאצא שלו?",
         killFailedTitle: "לא ניתן לסיים תהליך",
         killFailedMessage: "התהליך אולי כבר הסתיים או דורש הרשאות נוספות.",
-        adminPromptFormat: "Vorssaint זקוק לגישת מנהל כדי לסיים את '%@'."
+        adminPromptFormat: "Vorssaint זקוק לגישת מנהל כדי לסיים את “%@”."
     )
 }

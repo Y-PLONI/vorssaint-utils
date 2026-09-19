@@ -911,6 +911,7 @@ extension MediaImageConverterStrings {
         backgroundWhite: "לבן",
         backgroundBlack: "שחור",
         preserveDate: "שמור תאריך שינוי מקורי",
+        saveInSubfolder: "שמור בתיקיית משנה ״Converted״",
         moreOptions: "אפשרויות נוספות",
         tooLarge: "ממדים אלה גדולים מדי לעיבוד בטוח. בחר גודל קטן יותר.",
         copySummary: "העתק תקציר",

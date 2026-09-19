@@ -525,6 +525,8 @@ extension ScratchpadFeatureStrings {
         copyAll: "העתק הכל",
         copied: "הועתק",
         exportAction: "שמור כקובץ",
+        exportFailed: "לא ניתן לשמור את הקובץ",
+        loadFailed: "לא ניתן לפתוח את ההערות שלך. הן נשארו ללא שינוי.",
         clearAction: "נקה",
         retentionTitle: "נקה אוטומטית",
         retentionNever: "לעולם לא",
@@ -543,7 +545,7 @@ extension ScratchpadFeatureStrings {
         closePad: "סגור פנקס טיוטה",
         saveName: "שמור",
         cancel: "ביטול",
-        deletePadMessageFormat: "למחוק את '%@' ואת כל התוכן שבו?",
+        deletePadMessageFormat: "למחוק את “%@” ואת כל התוכן שבו?",
         padLimitFormat: "ניתן לשמור עד %d פנקסי טיוטה",
         previewFormatting: "הצג עיצוב",
         editText: "ערוך טקסט"

@@ -461,11 +461,20 @@ extension BrightnessFeatureStrings {
         lastDisplayCaption: "לפחות תצוגה אחת חייבת להישאר דלוקה.",
         switchUnavailable: "החלפת תצוגה אינה זמינה ב-Mac הזה.",
         switchFailed: "לא ניתן היה לשנות תצוגה זו.",
+        openLidToEnable: "פתח את המכסה כדי להפעיל את המסך המובנה.",
         keysToggle: "מקשי בהירות עוקבים אחר הסמן",
         keysCaption: "מקשי הבהירות במקלדת משנים את התצוגה שתחת הסמן.",
         osdToggle: "הצג בהירות בעת התאמה",
         osdCaption: "מציג את אחוז הבהירות כאשר משתמשים במקשי הבהירות או במחוונים.",
+        displayBrightnessShortcuts: "השתמש בקיצורים לבהירות המסך",
+        displayBrightnessShortcutCaption: "הקיצורים משנים את המסך הראשי, או את המסך שמתחת לסמן כשמעקב אחרי הסמן פעיל.",
+        displayBrightnessDecrease: "הפחת את בהירות המסך",
+        displayBrightnessIncrease: "הגבר את בהירות המסך",
         keyboardLight: "תאורת מקלדת",
-        keyboardLightCaption: "מדליק או מכבה את תאורת המקלדת האחורית."
+        keyboardLightCaption: "מדליק או מכבה את תאורת המקלדת האחורית.",
+        keyboardBrightnessShortcuts: "השתמש בקיצורים לבהירות המקלדת",
+        keyboardBrightnessDecrease: "הפחת את בהירות המקלדת",
+        keyboardBrightnessIncrease: "הגבר את בהירות המקלדת",
+        softwareDimming: "עמעם את התמונה"
     )
 }

@@ -2033,6 +2033,7 @@ extension RecorderFeatureStrings {
         shapeVertical: "גבוהה",
         noPointerNote: "להקלטה זו אין רצועת סמן, כך שאין מה להחליק. זומים שהוצבו ידנית עדיין עובדים.",
         zoomLaneEmptyHint: "לחץ כאן להוספת זום",
+        addZoomButton: "הוסף זום",
         removeZoom: "הסר",
         thisZoomLabel: "זום זה",
         zoomWhereLabel: "לאן הוא מסתכל",
@@ -2077,6 +2078,21 @@ extension RecorderFeatureStrings {
         automaticZoomToggle: "הוסף זומים אוטומטית",
         automaticZoomCaption: "כבה כדי להתחיל הקלטות חדשות ללא זומים. עדיין תוכל להוסיף אותם בעורך.",
         pauseButton: "השהה הקלטה",
-        resumeButton: "המשך הקלטה"
+        resumeButton: "המשך הקלטה",
+        blurLaneLabel: "טשטוש",
+        addBlurButton: "טשטש אזור",
+        blurLaneEmptyHint: "לחץ כאן כדי להוסיף טשטוש",
+        thisBlurLabel: "הטשטוש הזה",
+        blurPickArea: "בחר את האזור",
+        blurPickAreaHint: "גרור מעל מה שצריך להישאר מוסתר",
+        blurCaption: "מוסתר כל עוד הבלוק שלו נמשך בציר הזמן.",
+        addImageButton: "הוסף תמונה",
+        imageLaneLabel: "תמונה",
+        imageLaneEmptyHint: "לחץ כאן כדי להוסיף תמונה",
+        thisImageLabel: "התמונה הזו",
+        imageSizeLabel: "גודל",
+        imageOpacityLabel: "אטימות",
+        imagePositionLabel: "מיקום",
+        imageImportFailed: "לא ניתן להוסיף את התמונה הזו."
     )
 }

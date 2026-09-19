@@ -1696,8 +1696,6 @@ extension FeatureHubStrings {
         descMonitorNetwork: "מהירות ושימוש ברשת",
         descMonitorDisk: "מקום ופעילות דיסק",
         descMonitorPower: "סוללה, חשמל וטעינה",
-        installButton: "התקן",
-        uninstallButton: "הסר",
         footerNote: "הסרה לא מוחקת כלום: התכונה פשוט עוזבת את האפליקציה ומפסיקה להיטען. התקן אותה שוב בכל עת והכל חוזר כפי שהיה.",
         restartNote: "תכונות שהוסרו בסשן זה נשארות טעונות עד שהאפליקציה מופעלת מחדש. הפעל מחדש כדי לפרוק אותן מהזיכרון עכשיו.",
         restartButton: "הפעל מחדש עכשיו",
@@ -1726,6 +1724,10 @@ extension FeatureHubStrings {
         onboardingSelectedPermissionsTitle: "הרשאות לבחירות שלך",
         onboardingNoSelectedPermissions: "אינך צריך להעניק אף הרשאה לסיום ההגדרה.",
         onboardingOtherPermissionsTitle: "הרשאות אחרות",
-        onboardingOtherPermissionsCaption: "אופציונלי. הענק אותן עכשיו או מאוחר יותר, כשתכונה תצטרך אותן."
+        onboardingOtherPermissionsCaption: "אופציונלי. הענק אותן עכשיו או מאוחר יותר, כשתכונה תצטרך אותן.",
+        notchUninstallTitle: "הסר את Dynamic Island",
+        notchUninstallMessageFormat: "ההרחבות האלה עובדות רק בתוך Dynamic Island: %@. להסיר גם אותן? שום דבר לא נמחק, והכל חוזר בלחיצה אחת.",
+        notchUninstallWithExtensions: "הסר גם את ההרחבות",
+        notchUninstallKeepExtensions: "השאר את ההרחבות"
     )
 }

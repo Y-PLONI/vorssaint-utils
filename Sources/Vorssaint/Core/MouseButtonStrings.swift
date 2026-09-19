@@ -549,6 +549,8 @@ extension MouseButtonFeatureStrings {
         spacesShortcutsOffNote: "קיצורי המקלדת של Mission Control כבויים בהגדרות המערכת, אז למחווה הזו אין למה לקרוא.",
         spacesCaptureWaiting: "עכשיו לחץ על לחצן נוסף.",
         spacesCaptureUnsupported: "אי אפשר להחזיק את הקלט הזה לגרירה. השתמש בלחצן נוסף.",
-        spacesCaptureExists: "ללחצן הזה כבר יש קיצור. בחר אחר."
+        spacesCaptureExists: "ללחצן הזה כבר יש קיצור. בחר אחר.",
+        spacesFollowsDragLabel: "שולחנות העבודה עוקבים אחרי הגרירה",
+        spacesFollowsDragCaption: "גרירה ימינה מביאה את שולחן העבודה שמשמאל, כמו שהחלקה במשטח מגע סוחבת אותו יחד עם האצבעות."
     )
 }

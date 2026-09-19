@@ -14462,9 +14462,11 @@ struct MetricsTests {
         // Quotation marks are part of looking native and each language has its
         // own. Checked against what the system itself ships on this Mac: French
         // and Russian use the angled pair, German pairs a low opening mark with
-        // a high closing one, and every other language here uses the curly
-        // pair. Spanish, Italian, Portuguese and Turkish had picked up the
-        // angled pair, which reads as a translation from somewhere else.
+        // a high closing one, Hebrew quotes a name between gershayim and keeps
+        // the curly pair for a bare placeholder, and every other language here
+        // uses the curly pair. Spanish, Italian, Portuguese and Turkish had
+        // picked up the angled pair, which reads as a translation from
+        // somewhere else.
         // A label that says work is under way ends with the ellipsis character,
         // the way the system's own do, not with three periods. Ten of the
         // thirteen languages had the periods while three already had the
@@ -14485,6 +14487,13 @@ struct MetricsTests {
             let lowOpenUsed = values.contains { $0.contains("„") }
             expect(lowOpenUsed == (language == .de),
                    "only German opens a quote with the low mark (\(language.rawValue))")
+            if language == .he {
+                let curledName = values.first {
+                    $0.range(of: "“(?!%(\\d\\$)?@”)", options: .regularExpression) != nil
+                }
+                expect(curledName == nil,
+                       "Hebrew quotes a name with gershayim, as the system does (\(curledName ?? ""))")
+            }
         }
         for (language, strings) in localizedStrings {
             let prefix = "localization \(language.rawValue)"

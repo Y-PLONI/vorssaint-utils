@@ -157,6 +157,6 @@ extension DiskExclusionStrings {
         otherDrive: "שם כונן אחר…",
         removeButton: "הסר",
         customPlaceholder: "שם הכונן או הערכה",
-        caption: "כוננים ברשימה זו לעולם אינם נפלטים בעת שימוש ב'פלוט את כל הכוננים'."
+        caption: "כוננים ברשימה זו לעולם אינם נפלטים בעת שימוש ב״הוצא את כל הדיסקים״."
     )
 }
