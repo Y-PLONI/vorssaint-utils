@@ -1,8 +1,8 @@
 /* macOS Automation permission prompt. */
-"NSAppleEventsUsageDescription" = "Vorssaint משתמש באוטומציה כדי להעביר קבצים ב-Finder, לשלוח פריטים לאשפה ולפתוח פקודות בטרמינל כשאתה מבקש פעולות Homebrew.";
+"NSAppleEventsUsageDescription" = "Vorssaint משתמש באוטומציה כדי להעביר קבצים, לשלוח פריטים לאשפה, לפתוח פקודות שביקשת ולשלוט בניגון באפליקציות המדיה שלך.";
 
 /* macOS Screen & System Audio Recording permission prompt. */
-"NSAudioCaptureUsageDescription" = "Vorssaint ניגש רק לאודיו של אפליקציות בודדות כדי להתאים את עוצמת הקול שלהן במיקסר. שום דבר לא מוקלט ושום דבר לא עוזב את ה-Mac שלך.";
+"NSAudioCaptureUsageDescription" = "Vorssaint משתמש באודיו של כל אפליקציה כדי להתאים את עוצמת הקול שלה במיקסר, להזיז את פסי המוזיקה של Dynamic Island ולכלול את הצליל של ה-Mac בהקלטות המסך שאתה מתחיל. שום דבר לא עוזב את ה-Mac שלך.";
 
 /* macOS Bluetooth permission prompt. */
 "NSBluetoothAlwaysUsageDescription" = "Vorssaint משתמש ב-Bluetooth רק כדי לקרוא את רמת הסוללה של התקנים מחוברים. שום דבר לא עוזב את ה-Mac שלך.";

@@ -2439,7 +2439,7 @@ extension CommandBarFeatureStrings {
         selectionTitleCase: "אות ראשונה גדולה",
         selectionShelf: "שמור על המדף",
         selectionCount: "ספור אותו",
-        selectionCountFormat: "%d מילים, %d תווים",
+        selectionCountFormat: "מילים: %d, תווים: %d",
         sourceSelection: "מה שנבחר",
         kindLink: "הקיצור שלך",
         linkSearchHint: "הקלד מה לחפש אחרי השם",

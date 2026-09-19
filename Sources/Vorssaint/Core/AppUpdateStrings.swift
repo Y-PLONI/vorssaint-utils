@@ -639,7 +639,7 @@ extension AppUpdateStrings {
         neverChecked: "טרם נבדק",
         upToDate: "לא נמצאו עדכונים",
         partialUpToDate: "לא נמצאו עדכונים בבדיקה החלקית הזו",
-        coverageNote: "בודק אפליקציות מנוהלות ואפליקציות חנות, ומשווה שמות מדויקים של אפליקציות אחרות עם קטלוג מקוון ציבורי. עדכונים עדיין מותקנים דרך המקור המקורי.",
+        coverageNote: "בודק את המקורות המקוריים של האפליקציות המותקנות וקטלוג ציבורי. עדכונים מותקנים דרך המקור המקורי שלהם.",
         selectAll: "בחר הכל",
         clearSelection: "נקה",
         updateSelectedFormat: "עדכן %d",
@@ -652,9 +652,9 @@ extension AppUpdateStrings {
         frequencyDaily: "כל יום",
         frequencyWeekly: "כל שבוע",
         nextCheckFormat: "בדיקה הבאה %@",
-        notifyToggle: "הודע לי כאשר אפליקציה עם עדכון",
+        notifyToggle: "הודע לי כשיש עדכון לאפליקציה",
         includeStoreToggle: "כלול אפליקציות מ-App Store",
-        includeStoreCaption: "שואל את Apple מה הגרסה הנוכחית של האפליקציות שקיבלת מהחנות. כבה כדי להשאיר כל בדיקה ב-Mac זה בלבד.",
+        includeStoreCaption: "בודק את הגרסאות בחנות לפי האזור של Mac זה. Apple מתקינה את העדכונים האלה.",
         packageMissing: "Homebrew לא מותקן, כך שאפליקציות לא ניתנות לעדכון מכאן עדיין.",
         notificationBodyFormat: "%@ אפליקציות עם גרסה חדשה יותר.",
         notificationBodyOne: "אפליקציה אחת עם גרסה חדשה יותר.",
@@ -666,8 +666,8 @@ extension AppUpdateStrings {
         openApp: "פתח",
         openAppHint: "פותח את האפליקציה כדי שהעדכון שלה יוכל להסתיים",
         includeOnlineToggle: "כלול אפליקציות מותקנות אחרות",
-        includeOnlineCaption: "מוריד קטלוג אפליקציות ציבורי מבלי לשלוח את השמות או המזהים של האפליקציות ב-Mac זה.",
-        incompleteCheck: "חלק מהאפליקציות לא ניתן היה לבדוק",
+        includeOnlineCaption: "בודק ישירות מול מפתחי האפליקציות כשהדבר נתמך, ואז משתמש בקטלוג ציבורי. תוכנת העדכון של האפליקציה עצמה מתקינה את העדכון.",
+        incompleteCheck: "הבדיקה לא הושלמה",
         onlineUnavailable: "הבדיקה המקוונת לא הצליחה להסתיים. תוצאות אחרות עדיין מוצגות."
     )
 }

@@ -2283,7 +2283,7 @@ struct WindowLayoutFeatureStrings {
         fullScreen: "מסך מלא",
         previousDisplay: "מסך קודם",
         edgeSnapEnable: "הצמד חלונות לקצוות המסך",
-        edgeSnapCaption: "הפעל כאן, ואז גרור את שורת הכותרת לקצה או פינה כלשהי של המסך ושחרר.",
+        edgeSnapCaption: "הפעל כאן, בחר למטה את האזורים המסומנים, ואז גרור את שורת הכותרת של חלון לאחד מהם ושחרר.",
         edgeSnapSystemConflict: "macOS משתמש באותם קצוות מסך. כבה ריצוף חלונות ב״מכתבה וה-Dock״ כדי לאפשר ל-Vorssaint לפעול.",
         edgeSnapOpenSystemSettings: "פתח את מכתבה וה-Dock",
         edgeSnapWaitingForSystem: "הופעל ב-Vorssaint. יפעל לאחר כיבוי ריצוף החלונות של macOS.",

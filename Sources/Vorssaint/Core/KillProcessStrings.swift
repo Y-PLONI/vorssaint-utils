@@ -505,7 +505,7 @@ extension KillProcessFeatureStrings {
         commandBarCaption: "מוסיף תהליכים פעילים לסרגל הפקודות, כדי שתוכל למצוא ולסיים אותם בלי לפתוח את ההגדרות.",
         refreshTooltip: "רענן",
         pidLabelFormat: "PID %d",
-        processCountFormat: "%d תהליכים",
+        processCountFormat: "תהליכים: %d",
         killButton: "סיים",
         forceKillButton: "סיום בכוח",
         killAllFormat: "סיים את כל “%@”",
