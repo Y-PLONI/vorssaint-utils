@@ -26,7 +26,7 @@ enum AppLanguage: String, CaseIterable, Identifiable {
     var id: String { rawValue }
 
     /// Whether this language puts a distinct form between one and many. Only
-    /// Russian, of the thirteen: two through four take a form of their own,
+    /// Russian, of the fourteen: two through four take a form of their own,
     /// so "2 файла" and not "2 файлов".
     var usesFewCountForm: Bool { self == .ru }
     var isRTL: Bool { self == .he }

@@ -151,7 +151,7 @@ struct MetricsTests {
         expectEqual(MetricFormat.bytes(512), "512 B", "bytes < 1K")
         expectEqual(MetricFormat.bytes(1024), "1.0 KB", "bytes 1K")
         expectEqual(MetricFormat.bytes(1536), "1.5 KB", "bytes 1.5K")
-        // Seven of the thirteen languages here are spoken where a decimal is
+        // Seven of the fourteen languages here are spoken where a decimal is
         // written with a comma, and the panel wrote a point at everyone.
         MetricFormat.locale = Locale(identifier: "pt_BR")
         expectEqual(MetricFormat.bytes(1536), "1,5 KB", "a comma region reads its own decimal")
@@ -9633,7 +9633,7 @@ struct MetricsTests {
                    "a language without a middle form still only chooses between one and many at \(count)")
         }
         expect(AppLanguage.allCases.filter(\.usesFewCountForm) == [.ru],
-               "Russian is the one language of the thirteen that asks for the middle form")
+               "Russian is the one language of the fourteen that asks for the middle form")
 
         expectEqual(ShelfTooltipSupport.text(forFileNamed: "risaPOGCHAMP.gif", resolvedKind: "GIF Image"),
                     "risaPOGCHAMP.gif\nGIF Image",
